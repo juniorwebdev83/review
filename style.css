@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #679264 !important; /* Set the background color */
+    color: #f8f804;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Increase specificity to override Bootstrap styles */
+.navbar-light .navbar-brand {
+    color: #f8f804 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #f8f804;
+}
+
+/* Set the text color for the content */
+.container h1,
+.container p {
+    color: #f8f804;
+}
