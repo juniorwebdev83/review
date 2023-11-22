@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
     <style>
-
+        /* Add your styles here if needed */
+        /* For simplicity, no additional styles are added in this example */
     </style>
 </head>
 <body>
@@ -21,6 +22,13 @@
 
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
+
+    <!-- Add location fields -->
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required>
 
     <button type="submit">Register</button>
 </form>
